@@ -1,0 +1,111 @@
+body{
+    background-image: url(64e0cda0b6744e41b93120ee6744ec02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 23%;
+    height: 450px;
+    background-color: rgba(140, 137, 137, 0.5);
+    color: #ffff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 13%;
+    margin-top: 10%;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: #e2b2e8;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #e2b2e8;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-input{
+    width: 250px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.contact-inputs{
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-input:focus{
+    border: 2px solid #4f75ff;
+}
+.contact-inputs:focus{
+    border: 2px solid #4f75ff;
+}
+.contact-input::placeholder{
+    color: #e2b2e8;
+}
+.contact-inputs::placeholder{
+    color: #e2b2e8;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    cursor: pointer;
+    text-spacing-trim: center;
+}
+@media (max-width:800px) {
+    .contact-input{
+        width: 80vw;
+    }
+    .contact-inputs{
+        width: 80vw;
+    }
+    .background-image{
+        display: none;
+    }
+}
